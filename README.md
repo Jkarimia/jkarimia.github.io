@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <img src="yourphoto.jpg" alt="Your Name">
         <h1>Your Name</h1>
         <p>Welcome to my academic website!</p>
     </header>
