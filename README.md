@@ -71,6 +71,37 @@
             border-radius: 50%;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #f2f2f2;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -110,7 +141,18 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>You can reach me at [Your Email Address]. Feel free to connect with me on [LinkedIn/Twitter/Other Social Media].</p>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
         </section>
     </main>
 
