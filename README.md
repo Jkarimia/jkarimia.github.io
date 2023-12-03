@@ -6,18 +6,22 @@
     <title>Your Name - Academic Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
+            background-color: #f8f8f8;
+            color: #333;
         }
 
         header {
             text-align: center;
             padding: 20px;
-            background-color: #f2f2f2;
+            background-color: #4CAF50;
+            color: white;
         }
 
         h1 {
-            color: #333;
+            font-size: 2em;
+            margin: 5px 0;
         }
 
         nav {
@@ -32,10 +36,23 @@
             text-decoration: none;
             padding: 10px;
             margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
         }
 
         main {
             margin-top: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
         }
 
         footer {
@@ -47,11 +64,19 @@
             bottom: 0;
             width: 100%;
         }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
 
     <header>
+        <img src="your-photo.jpg" alt="Your Photo" width="150">
         <h1>Your Name, PhD</h1>
         <p>Assistant Professor, Department of [Your Department]</p>
     </header>
@@ -95,4 +120,3 @@
 
 </body>
 </html>
-
