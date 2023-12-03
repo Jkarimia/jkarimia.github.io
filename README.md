@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -107,7 +107,7 @@
 <body>
 
     <header>
-        <img src="your-photo.jpg" alt="Your Photo" width="150">
+        <img src="profile.jpg" alt="Profile" width="150">
         <h1>Your Name, PhD</h1>
         <p>Assistant Professor, Department of [Your Department]</p>
     </header>
@@ -120,24 +120,7 @@
     </nav>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome to my academic website. I am an Assistant Professor in the Department of [Your Department] with a focus on [Your Research Area]. [Brief introduction about yourself and your academic journey.]</p>
-        </section>
-
-        <section id="research">
-            <h2>Research</h2>
-            <p>My research interests include [Your Research Interests]. Currently, I am working on [Brief description of your current research projects.]</p>
-        </section>
-
-        <section id="publications">
-            <h2>Publications</h2>
-            <ul>
-                <li>[Publication 1]</li>
-                <li>[Publication 2]</li>
-                <!-- Add more publications as needed -->
-            </ul>
-        </section>
+        <!-- ... (existing sections) ... -->
 
         <section id="contact">
             <h2>Contact</h2>
