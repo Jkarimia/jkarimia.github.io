@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,8 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
             background-color: #f8f8f8;
             color: #333;
         }
@@ -45,10 +46,7 @@
 
         main {
             margin-top: 20px;
-            background-color: white;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         section {
@@ -76,7 +74,7 @@
             max-width: 400px;
             margin: 20px auto;
             padding: 15px;
-            background-color: #f2f2f2;
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -107,7 +105,7 @@
 <body>
 
     <header>
-        <img src="profile.jpg" alt="Profile" width="150">
+        <img src="profile.jpg" alt="Your Profile Photo" width="150">
         <h1>Your Name, PhD</h1>
         <p>Assistant Professor, Department of [Your Department]</p>
     </header>
